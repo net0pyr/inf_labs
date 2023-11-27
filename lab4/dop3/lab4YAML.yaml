@@ -1,28 +1,30 @@
-group_number: P3115
-id: 408674
-day: Monday
-schedule: 
-- lesson: Английский язык
-  lesson_format: Очно-дистанционный
-  type: Практика
-  time: 11:40-13:10
-  room: 
-    build: ул.Ломоносова, д.9, лит. Е
-    name: ауд. 3301
-  teacher: Левшинова Екатерина Андреевна
-- lesson: Английский язык
-  lesson_format: Очно-дистанционный
-  type: Практика
-  time: 13:30-15:00
-  room: 
-    build: ул.Ломоносова, д.9, лит. Е
-    name: ауд. 3301
-  teacher: Левшинова Екатерина Андреевна
-- lesson: Математический анализ (продвинутый уровень)
-  lesson_format: Очно-дистанционный
+first: 
   type: Лекция
-  time: 17:00-18:30
-  room: 
-    build: Кронверкский пр., д.49, лит.А
-    name: Ауд. Orange Classroom (1229)
-  teacher: Трифанова Екатерина Станиславовна
+  time: 10:00-11:30
+  sub: Программирование
+  lec: Письмак Алексей Евгеньевич
+  aud: 1216
+  corp: ул.Ломоносова, д.9, лит. М
+    - theory: OOP
+      test: new theory
+        - number: 3
+          deadline: end of november
+        - number: 4
+          deadline: end of december
+        - 0
+        - qwewqrwett
+        - 0
+second: 
+  type: Лабораторная
+  time: 13:30-15:00
+  sub: Информатика
+  lec: Рыбаков Степан Дмитриевич
+  aud: 2112
+  corp: Кронверский пр., д.49, лит. А
+third: 
+  type: Лабораторная
+  time: 15:20-16:50
+  sub: Информатика
+  lec: Рыбаков Степан Дмитриевич
+  aud: 2112
+  corp: Кронверский пр., д.49, лит. А

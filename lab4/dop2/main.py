@@ -1,4 +1,7 @@
 import re
+import time
+
+start_time = time.time()
 
 fJSON = open('lab4JSON.json')
 fYAML = open('lab4YAML.yaml', 'w')
@@ -38,3 +41,6 @@ for line in fJSON:
     line = line.replace('"', '')
     fYAML.write(line)
 fYAML.close()
+end_time = time.time()
+result = (end_time - start_time)
+print(result)
